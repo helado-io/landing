@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Amatica SC';
+  src: url('/assets/AmaticaSC-Regular.ttf');
+  font-weight: 'regular';
+}
+
+@font-face {
+  font-family: 'Amatica SC';
+  src: url('/assets/AmaticaSC-Bold.ttf');
+  font-weight: 'bold';
+}
+
+.columns.is-vcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.centered-object {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.helado-page-1-text {
+  padding-top: 10%;
+}
+
+.helado-page-1-head-copy {
+  color: #be3481;
+  font-family: 'Amatica SC';
+  font-size: 4rem;
+  text-align: center;
+}
+
+.helado-page-1-text-copy {
+  color: #be3481;
+  font-family: 'Amatica SC';
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.hero.helado-page-2-container {
+  background: radial-gradient(
+    circle at 0px 0px,
+    #eb5545 0%,
+    rgba(190, 52, 129, 0.85) 60%
+  );
+}
+
+.helado-page-2-copy {
+  color: #ffffff;
+  font-family: 'Saira Semi Condensed';
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.hero.helado-page-3-container {
+  background: radial-gradient(
+    circle at 0px 0px,
+    #b8fa92 0%,
+    rgba(255, 131, 244, 0.85) 80%
+  );
+}
+
+.hero.helado-page-4-container {
+  background: radial-gradient(
+    circle,
+    #eb5545 0%,
+    rgba(190, 52, 129, 0.85) 100%
+  );
+}
+
+.oval-vanilla {
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  background-color: #ffdd00;
+}
+
+.oval-strawberry {
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  background-color: #ff4c86;
+}
+
+.oval-chocolate {
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  background-color: #7a523a;
+}
+
+.ball-head-text {
+  color: #ffffff;
+  margin: 20px;
+  font-family: 'Amatica SC';
+  font-size: 45px;
+}
+
+.ball-subtitle-text {
+  color: #ffffff;
+  font-family: 'Saira Semi Condensed';
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.flavors-title {
+  color: #ffffff;
+  margin-top: 20px;
+  font-family: 'Amatica SC';
+  font-size: 50px;
+}
+
+.flavors-text {
+  color: #ffffff;
+  font-family: 'Saira Semi Condensed';
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.you-ll-love-this-hel {
+  color: #ffffff;
+  margin-top: 30px;
+  font-family: 'Amatica SC';
+  font-size: 5em;
+  text-align: center;
+}
+
+.helado-n-frozen {
+  color: #ffffff;
+  font-family: 'Saira Semi Condensed';
+  margin-top: 66px;
+  font-size: 16px;
+  text-align: center;
+}
